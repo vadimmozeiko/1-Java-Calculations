@@ -1,6 +1,6 @@
 ![HTML](https://img.shields.io/badge/code-HTML-brightgreen)
 ![CSS](https://img.shields.io/badge/code-CSS-green)
-![JAVA](https://img.shields.io/badge/code-Java-red)
+![JAVA](https://img.shields.io/badge/code-JAVA-red)
 
 # Java intoduction
 _Home work #1_
