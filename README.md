@@ -2,7 +2,7 @@
 ![CSS](https://img.shields.io/badge/code-CSS-green)
 ![JAVA](https://img.shields.io/badge/code-JAVA-red)
 
-# Java intoduction
+# Java introduction
 _Home work #1_
 
 This project is for frontend web development learning and practicing only. 
