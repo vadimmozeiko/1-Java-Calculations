@@ -1,5 +1,3 @@
-![HTML](https://img.shields.io/badge/code-HTML-brightgreen)
-![CSS](https://img.shields.io/badge/code-CSS-green)
 ![JAVA](https://img.shields.io/badge/code-JAVA-red)
 
 # Java introduction
