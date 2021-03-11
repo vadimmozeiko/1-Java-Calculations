@@ -9,6 +9,7 @@ During this project main aim to print out given number calculations.
 This is a small program, which takes any amount of given intergers, puts them into array.
 Then prints out the calculations of given numbers: average, square, cube.
 
+![screenshot](./src/screenshots/nd1.JPG)
 
 ## Project goals
 
