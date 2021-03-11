@@ -45,8 +45,10 @@ public class ND {
 //        
 //        System.out.println("-----------------------");
 //        System.out.println("Ivestu skaiciu kubu vidurkis:" + averageCb );
-        System.out.println("Kiek skaiciu ivesti?");
+        System.out.println("Amount of number you want to enter:");
+        System.out.println();
         int quantity = sc.nextInt();
+        System.out.println();
         
         int[] numbers = new int[quantity];
         float sum = 0;
@@ -56,7 +58,9 @@ public class ND {
         float numCbSum = 0;
         
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Ivesti skaiciu:");
+            System.out.println();
+            System.out.println("Enter " + (i+1) + " number:");
+            System.out.println();
             numbers[i] = sc.nextInt();
             sum += numbers[i];
         }
@@ -64,19 +68,20 @@ public class ND {
         for (int i = 0; i < numbers.length; i++) {
             numberSquare = numbers[i] * numbers[i];
             numSqSum += numberSquare;
-            System.out.println("Ivesto skaiciaus " + numbers[i] + " kvadratas: " + numberSquare);
+            System.out.println();
+            System.out.println("Number " + numbers[i] + " square is: " + numberSquare);
             numberCube = numbers[i] * numbers[i] * numbers[i];
             numCbSum += numberCube;
-            System.out.println("Ivesto skaiciaus " + numbers[i] + " kubas: " + numberCube);
+            System.out.println("Number " + numbers[i] + " cube is: " + numberCube);
             System.out.println("-----------------");
         }
         
        float numAverage = sum / numbers.length;
        float numSqAverage = numSqSum / numbers.length; ;
        float numCubeAverage = numCbSum / numbers.length;
-       System.out.println("Ivestu skaiciu vidurkis: " + numAverage );
-       System.out.println("Ivestu skaiciu kvadratu vidurkis: " + numSqAverage);
-       System.out.println("Ivestu skaiciu kubu vidurkis: " + numCubeAverage);
+       System.out.println("All numbers average is: " + numAverage );
+       System.out.println("All numbers square average is: " + numSqAverage);
+       System.out.println("All numbers cube average is: " + numCubeAverage);
     }
 
 }
